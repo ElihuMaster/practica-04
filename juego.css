@@ -1,0 +1,75 @@
+p{
+    color: crimson;
+    font-size: 30px;
+    text-align: center;
+}
+#premio{
+    color: crimson;
+    font-size: 15px;
+    text-align: center;
+}
+.botones{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    gap: 5%;
+}
+button{
+    width: 25%;
+}
+
+
+#divNo{
+    border: none;
+    border-radius: 50px;
+    background-color: white;
+    outline: none;
+    position: absolute;
+    top : 102px;
+    width: 15%;
+    margin-left: 5%;
+}
+
+img{
+    width: 50%;
+}
+
+#grupo-no{
+    border: solid 1px black;
+    border-radius: 15px;
+    width: 50%;
+    height: 80vh;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    
+}
+#imgDog{
+    background-image: url("https://media.tenor.com/images/321cddedea6566fe3cdbbff52fee0a11/tenor.gif");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border: solid 1px black;
+    border-radius: 15px;
+    width: 50%;
+    height: 80vh;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+}
+#imgDog2{
+    background-image: url("https://imagendeperros.com/wp-content/uploads/2016/01/Imagenes-animadas-de-perritos-tiernos-bailando.gif");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border: solid 1px black;
+    border-radius: 15px;
+    width: 50%;
+    height: 80vh;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+}
+
+button:hover{
+    cursor: pointer;
+}

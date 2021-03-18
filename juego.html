@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="juego.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div hidden id="imgDog">
+        <p>Entonces sigue intentando</p>
+    </div>
+    <div hidden id="imgDog2">
+        <p>miauuuoooo</p>
+    </div>
+    <div id="grupo-no">
+
+        <p>atrapaste el perro????</p>
+
+        <div class="botones">
+            <button id="si">si</button>
+            <button id="nel">no</button>
+        </div>
+        <p id="premio">reclama tu premio!!!!!!</p>
+
+        <div class="buttonReprod">
+            <audio onended="play()" id="song"  type= "audio.mpeg"></audio>
+        </div>
+
+        <button id="divNo">
+            <img id="no"
+                src="https://nuugi.com/wp-content/uploads/2011/04/Blink-blink.gif"
+                alt="">
+        </button>
+    </div>
+    <script src="juego.js"></script>
+</body>
+
+</html>
